@@ -24,7 +24,6 @@ const AddUser = (props) => {
       });
       return;
     }
-
     if(+enteredAge < 1) {
       setError({
         title: 'InValid age',
